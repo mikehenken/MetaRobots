@@ -1,11 +1,11 @@
 <?php
-$thisfile_anony=basename(__FILE__, ".php");
+$thisfile_meta=basename(__FILE__, ".php");
 
 # register plugin
 register_plugin(
-	$thisfile_anony,
+	$thisfile_meta,
 	'MetaRobots',
-	'1.0',
+	'1.1',
 	'Mike Henken',
 	'http://michaelhenken.com.',
 	'Choose pages that should not be followed by search engines',
